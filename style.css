@@ -10,16 +10,16 @@ body{
 }
 
 img{
-	border-radius:5px;
+	border-radius:10px;
 }
 
 .header, .hero{
-	padding:32px 200px; 
+	padding:32px 200px;
 	background-color:#1f2937;
 }
 
 .information, .quote{
-	padding:64px 250px;
+	padding:64px 300px;
 }
 
 /* header */
@@ -46,6 +46,7 @@ ul{
 	align-self:center;
 	color:#f9faf8;
 	font-size:24px;
+	font-weight:bold;
 }
 
 /* hero */
@@ -59,7 +60,7 @@ ul{
 	display:flex;
 	justify-content:center;
 	flex-flow:column nowrap;
-	gap:16px;
+	gap:32px;
 	max-width: 400px;
 	/* padding-right:128px; */
 }
@@ -81,7 +82,8 @@ ul{
 	border:none;
 	border-radius:5px;
 	width:max-content;
-	padding:4px 16px;
+	padding:4px 32px;
+	font-size:14px;
 }
 
 .hero-container .button:active{
@@ -126,8 +128,8 @@ ul{
 }
 
 .info-cards img{
-	height:200px;
-	width:200px;
+	height:150px;
+	width:150px;
 	object-fit:cover;
 }
 
@@ -141,4 +143,47 @@ ul{
 	font-size:36px;
 	font-style:italic;
 	font-weight:100;
+}
+
+/* registration */
+
+.registration{
+	margin:64px 200px;
+	padding:48px 100px;
+	background-color:#3882f6;
+	border-radius:10px;
+}
+
+.container-blue{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	color:#e5e7eb;
+	
+}
+
+.reg-header{
+	color:#f9faf8;
+	font-size: 24px;
+	font-weight:bold;
+}
+
+.reg-text{
+	color:#e5e7eb;
+	font-size:18px;
+}
+
+.container-blue button{
+	color: #f9f9f9;
+	font-size:14px;
+	background-color:#3882f6;
+	border-radius:5px;
+	border-style: solid;
+	border-color:#f9faf8;
+	width:max-content;
+	padding:4px 32px;
+}
+
+.container-blue button:active{
+	background-color:#3275DD;
 }
