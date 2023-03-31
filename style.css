@@ -16,12 +16,12 @@ img{
 	border-radius:5px;
 }
 
-.header-hero{
+.header, .hero{
 	padding:32px 200px;
 	background-color:#1f2937;
 }
 
-.info-quote{
+.information, .quote{
 	padding:32px 300px;
 }
 
@@ -122,4 +122,9 @@ ul{
 	height:200px;
 	width:200px;
 	object-fit:cover;
+}
+
+/* quote */
+.quote{
+	background-color:#e5e7eb;
 }
