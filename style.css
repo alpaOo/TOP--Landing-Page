@@ -187,3 +187,14 @@ ul{
 .container-blue button:active{
 	background-color:#3275DD;
 }
+
+/* footer */
+
+.footer{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#f9faf8;
+	background-color:#1f2937;
+	padding:32px;
+}
